@@ -1,11 +1,19 @@
 # We should automate rooftop solar installation
 
+---
+layout: post
+title: Your article title
+date: 2026-10-14
+---
+
 *Robots are beginning to help build utility-scale solar plants and maintain installed panels. Rooftop installation, especially on large commercial buildings, remains largely manual. Automating some of that work could help installers build faster while reducing the strenuous work people do on roofs.*
 
 *This essay examines the size of that opportunity and the practical challenges of building such a system, with a focus on hardware. Roofs vary widely, and a useful robot would need to work safely and reliably across many sites. Advances in robotics and AI make this a good time to define those requirements and explore how such a system might be built.*
 
 ## Table of contents
-* Do not remove this line (it will not be displayed)
+{:.no_toc}
+
+* TOC
 {:toc}
 
 ## Solar PV has huge potential
@@ -52,7 +60,7 @@ Rooftops, commonly divided into residential and commercial, remain close to half
 
 The first is a [roofing robot installing shingles](https://www.youtube.com/shorts/Q_hdhJG2rGg), developed by Renovate Robotics, which is made for residential steep-sloped roofs and designed for solar installation as well, comprising both solar shingles and rack-and-panel solar systems. Cables anchored at multiple points guide the robot across the roof, while computer vision helps it position each shingle.
 
-![Renovate Robotics's roofing robot](/why-automate-rooftop-solar/assets/Renovate-Robotics-Rufus-Roofing-Robot-1536x1024.jpg)*Renovate Robotics's shingle replacement roofing robot – Source: Renovate Robotics*
+![Renovate Robotics's roofing robot](/why-automate-rooftop-solar/assets/Renovate-Robotics-Rufus-Roofing-Robot-1536x1024.jpg)*Renovate Robotics's shingle installation roofing robot – Source: Renovate Robotics*
 
 The second is a [rail-mounted robot installing arrays of panels on large roofs](https://solar-d.co.th/news/Solard-Robot-LightSpeed-%E0%B9%81%E0%B8%9C%E0%B8%87%E0%B9%82%E0%B8%8B%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B8%A5%E0%B9%8C-%E0%B9%82%E0%B8%8B%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%84%E0%B8%A3%E0%B8%9A%E0%B8%A7%E0%B8%87%E0%B8%88%E0%B8%A3), developed by Solar D, which works as follows. First, multiple solar panels are pre-assembled together in a factory and transported to the construction site. Second, workers install rails on the rooftop surface. Third, a crane lifts a panel from the ground and positions it on a rail-bound installation robot at the edge of the building. Finally, the rail robot brings the panel to its final position on the roof, unloads it, and returns to the edge of the roof to fetch the next panel. The company, itself a solar installer, claims it sped up deployment of 1 MW (1600 large 650) from 60 days to 6 days, while reducing the number of workers by half and reducing the risk of damage to the roof. So partial automation, with the fine-grained manipulation tasks such as fixing rails to the roof still done by humans, while the backbreaking tasks such as moving the panels are handled by machines. The company made [a great video](https://lnkd.in/p/eFKtmw9Y) that shows the system in action from up close. One drawback of the system is that it cannot be deployed on roofs with a significant number of obstacles, and that it needs a crane, meaning a crane operator.
 
@@ -111,7 +119,7 @@ For cleaning purposes, it would make sense to make the panels one continuous sur
 We want to assemble elements on the ground, following the Charge Robotics/Terabase Energy model. This task can be automated using classical methods, i.e. in clear, no AI is involved in manipulation itself, so no deep learning for control, only perception. This leads to a tradeoff: the more we assemble on the ground, the less the robot needs to do on the roof, but also, the more weight and volume the robot needs to handle, making it more difficult for it to navigate on the roof. For ballasted systems, which are the simplest to install on a roof (no roof penetration and sealing needed) the assembled weight of just few modules (panels + ballast) could reach into the hundreds of kg.
 
 ![A bundle of pre-assembled modules being placed on a utility solar construction site](/why-automate-rooftop-solar/assets/Terabase-solar-module-bundle-positioning.png)
-A preassembled array of panels being driven to its field position on a solar farm – Source: [Terabase Energy](https://www.youtube.com/watch?v=oj2zdQYXGNE&t=1m58s)
+*A preassembled array of panels being driven to its field position on a solar farm – Source: [Terabase Energy](https://www.youtube.com/watch?v=oj2zdQYXGNE&t=1m58s)*
 
 Safety being a key priority of our system, we want to prevent our system:
 - falling off the roof
@@ -171,7 +179,7 @@ Use of a drone for mapping could be useful, but adds another component to the bi
 ##### Wiring
 Current physical AI model seem too uncertain today to be deployed in prod on this task, and we should be wary of relying on it when we can (mostly) eliminate the step using a different hardware design. On the other hand, one could argue that one should integrate physical AI models in systems to prepare for more powerful soon-to-come models. This seems too uncertain for now, and there should be working, robust and predictable policies based on classical methods. 
 
-This could be done with a robotic arm on the vehicle. We should try to simplify manipulation tasks using hardware design that reduces variability (e.g. design systems which are "easy-to-wire"). For instance, given that learned physical manipulation is still sub 95% reliable, we might need to teleoperate for some time, both to finish the job from the ground, and to collect data to train a more reliable AI policy on the task. Of note: progress in physical AI will be huge in the next 2-5 years, so the preceding paragraph might be off base, and we might have extremely reliable AI models for physical manipulation that perform tasks better than humans soon. Although we should be open to this possibility, I don't believe we should count on it at this stage. Also, a simplified hardware design can also make things easier and faster for human installers.
+This could be done with a robotic arm on the vehicle. We should try to simplify manipulation tasks using hardware design that reduces variability (e.g. design systems which are "easy-to-wire"). For instance, given that learned physical manipulation is still sub 95% reliable, we might need to teleoperate for some time, both to finish the job from the ground, and to collect data to train a more reliable AI policy on the task. Of note: progress in physical AI will be huge in the next 2-5 years, so the preceding paragraph might be off base, and we might have extremely reliable AI models for physical manipulation that perform tasks better than humans soon. Although we should be open to this possibility, I don't believe we should count on it at this stage. Additionally, a simplified hardware design makes things easier and faster for human installers.
 
 #### Business model
 - The more we integrate the business by designing custom hardware, such as ballast mounts or wiring systems, the more it might be difficult to sell the system to existing solar installers. On the other hand, vertical integration might be necessary for automation in the sector, barring enormous progress in physical AI (which is not out of question but cannot be relied on at this point in time).
