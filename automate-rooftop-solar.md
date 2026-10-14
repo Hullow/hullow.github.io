@@ -1,11 +1,12 @@
 # We should automate rooftop solar installation
 
-* Do not remove this line (it will not be displayed)
-{:toc}
-
 *Robots are beginning to help build utility-scale solar plants and maintain installed panels. Rooftop installation, especially on large commercial buildings, remains largely manual. Automating some of that work could help installers build faster while reducing the strenuous work people do on roofs.*
 
 *This essay examines the size of that opportunity and the practical challenges of building such a system, with a focus on hardware. Roofs vary widely, and a useful robot would need to work safely and reliably across many sites. Advances in robotics and AI make this a good time to define those requirements and explore how such a system might be built.*
+
+## Table of contents
+* Do not remove this line (it will not be displayed)
+{:toc}
 
 ## Solar PV has huge potential
 *If you know about solar's learning curve, you can skip this section*
