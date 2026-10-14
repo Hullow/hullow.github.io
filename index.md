@@ -1,2 +1,2 @@
 ## Articles
-[Why automate rooftop solar installation ?](/automate-rooftop-solar.md)
+[We should automate rooftop solar installation](/automate-rooftop-solar.md)
