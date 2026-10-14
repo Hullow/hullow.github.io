@@ -1,4 +1,4 @@
-Why we should automate rooftop solar installation
+# Why we should automate rooftop solar installation
 
 *Robots are beginning to help build utility-scale solar plants and maintain installed panels. Rooftop installation, especially on large commercial buildings, remains largely manual. Automating some of that work could help installers build faster while reducing the strenuous work people do on roofs.*
 
