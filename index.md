@@ -7,11 +7,13 @@ Why we should automate rooftop solar installation
 ## Solar PV has huge potential
 *If you know about solar's learning curve, you can skip this section*
 
-- The world's energy needs are huge, whether that's replacing fossil fuels, powering the datacenter expansion, and existing applications are increasingly electric (most notably electric vehicles and heat pumps).
-- Solar PV has enormous potential, as a factory-produced energy production machine, that is almost infinitely scalable (both up and down). The most important element to understand is that its [learning curve](https://en.wikipedia.org/wiki/Experience_curve_effect) is [steeper than any other established energy technology](https://www.cmu.edu/epp/iecm/rubin/PDF%20files/2015/A%20review%20of%20learning%20rates%20for%20electricity%20supply%20technologies.pdf).[Swanson's law](https://en.wikipedia.org/wiki/Swanson's_law), is the observation that for decades, this learning curve showed a price drop of around 20% for each doubling in production. The case goes beyond past trends: the underlying economics suggest solar electricity could become [much cheaper still](https://unchartedterritories.tomaspueyo.com/p/can-solar-costs-keep-shrinking).
-- The fastest way to spread solar widely is to work on decreasing its cost and scaling its production and installation.
+The world's energy needs are huge, whether that's replacing fossil fuels, powering the datacenter expansion, and existing applications are increasingly electric (most notably electric vehicles and heat pumps).
 
-[Price of solar panels as a function of cumulative installed capacity](/References/1975_–_Price_of_solar_panels_as_a_function_of_cumulative_installed_capacity.png) Source: [Wikimedia](https://commons.wikimedia.org/wiki/File:1975_%E2%80%93_Price_of_solar_panels_as_a_function_of_cumulative_installed_capacity.svg)
+Solar PV has enormous potential, as a factory-produced energy production machine, that is almost infinitely scalable (both up and down). The most important element to understand is that its [learning curve](https://en.wikipedia.org/wiki/Experience_curve_effect) is [steeper than any other established energy technology](https://www.cmu.edu/epp/iecm/rubin/PDF%20files/2015/A%20review%20of%20learning%20rates%20for%20electricity%20supply%20technologies.pdf).[Swanson's law](https://en.wikipedia.org/wiki/Swanson's_law), is the observation that for decades, this learning curve showed a price drop of around 20% for each doubling in production. The case goes beyond past trends: the underlying economics suggest solar electricity could become [much cheaper still](https://unchartedterritories.tomaspueyo.com/p/can-solar-costs-keep-shrinking).
+
+The fastest way to spread solar widely is to work on decreasing its cost and scaling its production and installation.
+
+[Price of solar panels as a function of cumulative installed capacity](/why-automate-rooftop-solar/assets//1975_–_Price_of_solar_panels_as_a_function_of_cumulative_installed_capacity.png) Source: [Wikimedia](https://commons.wikimedia.org/wiki/File:1975_%E2%80%93_Price_of_solar_panels_as_a_function_of_cumulative_installed_capacity.svg)
 
 - This decrease in price means that solar will continue to become the cheapest source of energy in ever less sunny places. The geographical differences aren't actually huge to start with: between Denmark and Saudi Arabia, the difference in annual production for the same installed capacity (kWh/kWp) is only a factor of two (see the [Global Solar Atlas](https://globalsolaratlas.info/)).
 
@@ -45,9 +47,9 @@ The first is the [shingle installing robot](https://www.youtube.com/shorts/Q_hdh
 
 The second is Solar D's [rail-mounted robot](https://solar-d.co.th/news/Solard-Robot-LightSpeed-%E0%B9%81%E0%B8%9C%E0%B8%87%E0%B9%82%E0%B8%8B%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B8%A5%E0%B9%8C-%E0%B9%82%E0%B8%8B%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%84%E0%B8%A3%E0%B8%9A%E0%B8%A7%E0%B8%87%E0%B8%88%E0%B8%A3)  for large roofs, which works as follows. First, multiple solar panels are pre-assembled together in a factory and transported to the construction site. Second, workers install rails on the rooftop surface. Third, a crane lifts a panel from the ground and positions it on a rail-bound installation robot at the edge of the building. Finally, the rail robot brings the panel to its final position on the roof, unloads it, and returns to the edge of the roof to fetch the next panel. The company claims it sped up deployment of 1 MW (1600 large 650) from 60 days to 6 days, while reducing the number of workers by half and reducing the risk of damage to the roof. So partial automation, with the fine-grained manipulation tasks such as fixing rails to the roof still done by humans, while the backbreaking tasks such as moving the panels are handled by machines. The company made [a great video](https://lnkd.in/p/eFKtmw9Y) that shows the system in action from up close. One drawback of the system is that it cannot be deployed on roofs with a significant number of obstacles, and that it needs a crane, meaning a crane operator.
 
-[Charge Robotics' on-site assembly line](/References/Charge-robotics-assembly-line-above.jpg) Source: Charge Robotics
-[Renovate Robotics's roofing robot](/References/Renovate-Robotics-Rufus-Roofing-Robot-1536x1024.jpg) Source: Renovate Robotics
-[Solar D's rail-mounted installation robot](/References/Solar-D-rooftop-robot-English.png) Source: Solar D (automated caption translation from Thai)
+[Charge Robotics' on-site assembly line](/why-automate-rooftop-solar/assets//Charge-robotics-assembly-line-above.jpg) Source: Charge Robotics
+[Renovate Robotics's roofing robot](/why-automate-rooftop-solar/assets//Renovate-Robotics-Rufus-Roofing-Robot-1536x1024.jpg) Source: Renovate Robotics
+[Solar D's rail-mounted installation robot](/why-automate-rooftop-solar/assets//Solar-D-rooftop-robot-English.png) Source: Solar D (automated caption translation from Thai)
 
 ## Why rooftop installation automation ?
 As hinted at previously, energy expansion is an emergency, whether from an economic, environmental, or sovereignty perspective. Technologies that can accelerate it substantially by lowering costs and scaling deployment should be explored.
@@ -63,11 +65,11 @@ As a European hoping to help revive the region’s industry, I focused first on 
 ### The current rooftop PV business
 While the theoretical potential of residential PV is twice as large, the market size of commercial installation is now larger, likely due to businesses' higher sensitivity to energy prices, longer investment horizons, easier permitting, etc. The EU installed about 20 GW/year of commercial and industrial rooftop solar in the last few years, bringing cumulative capacity in that segment to roughly 158 GW.
 
-[EU solar PV segmentation 2021-2025, Source: SolarPower Europe](References/EU-solar-market-segmentation.png)
+[EU solar PV segmentation 2021-2025, Source: SolarPower Europe](why-automate-rooftop-solar/assets//EU-solar-market-segmentation.png)
 
 In China, which is by far the world leader in solar deployment (around four times the pace of the EU), commercial rooftop installations (C&I) now far surpass residential, although the gap is [predicted](https://www.rystadenergy.com/news/china-rooftop-solar-installations-hit-record-in-1q25) to decrease.
 
-[China solar PV segmentation 2021-2025, Source: Rystad Energy](References/China-solar-market-segmentation.png)
+[China solar PV segmentation 2021-2025, Source: Rystad Energy](why-automate-rooftop-solar/assets//China-solar-market-segmentation.png)
 
 Adding slightly smaller roofs, those with a surface of >1000m2, from both residential and non-residential categories, and the estimation goes up to 800 GW.
 
@@ -99,7 +101,7 @@ For cleaning purposes, it would make sense to make the panels one continuous sur
 
 We want to assemble elements on the ground, following the Charge Robotics/Terabase Energy model. This task can be automated using classical methods, i.e. in clear, no AI is involved in manipulation itself, so no deep learning for control, only perception. This leads to a tradeoff: the more we assemble on the ground, the less the robot needs to do on the roof, but also, the more weight and volume the robot needs to handle, making it more difficult for it to navigate on the roof. For ballasted systems, which are the simplest to install on a roof (no roof penetration and sealing needed) the assembled weight of just few modules (panels + ballast) could reach into the hundreds of kg.
 
-[A bundle of pre-assembled modules being placed on a utility solar construction site](/References/Terabase-solar-module-bundle-positioning.png)
+[A bundle of pre-assembled modules being placed on a utility solar construction site](/why-automate-rooftop-solar/assets//Terabase-solar-module-bundle-positioning.png)
 Source: Terabase Energy
 URL: https://www.youtube.com/watch?v=oj2zdQYXGNE&t=1m58s
 
@@ -173,8 +175,8 @@ This could be done with a robotic arm on the vehicle. We should try to simplify 
 - Humanoids are being built by many companies, but it is hard to gauge timelines for general-purpose physical AI that could put them to work efficiently and safely on varied tasks, especially construction, which is a much more chaotic environment than a factory or logistics centre, with a smaller margin for error. Even if humanoids end up being adequate for the task in 5 years and cheaper than a purpose-built robot, the work of designing and building an automated rooftop installation system will have been useful. With humanoids too, we need to define system requirements, possible benchmarks and metrics, collect field data, integrate with industry, and manage human-robot interaction. Current physical AI models tend to be functional on various embodiments: if this versatility persists in next generations, we should be able to transfer a lot of the learnings to the best-adapted embodiment.
 
 ### The main challenges
-- On-roof navigation
-- Reliable automated cable manipulation
+- On-roof navigation, i.e. self-driving on a dangerous and fragile construction site
+- Reliable automated wiring (maybe this will happen further down the line)
 - System design: a safe and versatile autonomous system that works well on a large proportion of flat rooftops, and can be scaled both in deployment and in manufacturing
 - Integrating with the existing rooftop installer sector
 
@@ -185,4 +187,4 @@ This could be done with a robotic arm on the vehicle. We should try to simplify 
 	- what constitutes a navigable roof for different robotic embodiments ?
 - General tradeoffs of mounting systems
 
-I hope this article yields feedback, especially from professionals in the solar, construction, and robotics industries. An additional hope is that it will spark more discussion on the concrete needs of the solar industry, and the necessity to work on the energy expansion. Finally, I hope it will inspire people to explore unexplored realms and invent what they want to see in the world. 
+*I hope this article yields feedback, especially from professionals in the solar, construction, and robotics industries. An additional hope is that it will spark more discussion on the concrete needs of the solar industry, and the necessity to work on the energy expansion. Finally, I hope it will inspire people to explore unexplored realms and invent what they want to see in the world.*
