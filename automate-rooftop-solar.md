@@ -42,15 +42,15 @@ Robots are now used to clean panels, [inspect them](https://www.youtube.com/watc
 
 They are also used to install them in fields, with [several](https://roboticsandautomationnews.com/2026/08/10/interview-with-maximos-nick-hegeman-180000-robotic-installations-of-solar-panels-and-counting/104039/) [companies](https://cleantechnica.com/2025/10/06/ai-powered-robots-install-solar-panels-faster-than-any-humans/) now deploying [pile-driving](https://www.youtube.com/watch?v=CiIRiT7UrdA) and panel-placing robots. Some companies push automation even further with [an on-site assembly line pre-assembling panels](https://chargerobotics.com/).
 
+![Charge Robotics' on-site assembly line](/why-automate-rooftop-solar/assets/Charge-robotics-assembly-line-above.jpg) An on-site pre-assembly line – Source: Charge Robotics
+
 Rooftops, commonly divided into residential and commercial, remain close to half of solar additions across the world besides utility (mostly large fields). Due to the complexity of the terrain however, they have not seen much automation in installation, with two exceptions.
 
-The first is the [shingle installing robot](https://www.youtube.com/shorts/Q_hdhJG2rGg) developed by Renovate Robotics, which is made for residential steep-sloped roofs and designed for solar installation as well, comprising both solar shingles and rack-and-panel solar systems. Cables anchored at multiple points guide the robot across the roof, while computer vision helps it position each shingle.
+The first is the [roofing robot installing shingles](https://www.youtube.com/shorts/Q_hdhJG2rGg), developed by Renovate Robotics, which is made for residential steep-sloped roofs and designed for solar installation as well, comprising both solar shingles and rack-and-panel solar systems. Cables anchored at multiple points guide the robot across the roof, while computer vision helps it position each shingle.
+
+![Renovate Robotics's roofing robot](/why-automate-rooftop-solar/assets/Renovate-Robotics-Rufus-Roofing-Robot-1536x1024.jpg){: style="width:100%; max-width:400px; height:auto;"} Renovate Robotics's shingle replacement roofing robot – Source: Renovate Robotics
 
 The second is Solar D's [rail-mounted robot](https://solar-d.co.th/news/Solard-Robot-LightSpeed-%E0%B9%81%E0%B8%9C%E0%B8%87%E0%B9%82%E0%B8%8B%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%8B%E0%B8%A5%E0%B8%A5%E0%B9%8C-%E0%B9%82%E0%B8%8B%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%84%E0%B8%A3%E0%B8%9A%E0%B8%A7%E0%B8%87%E0%B8%88%E0%B8%A3)  for large roofs, which works as follows. First, multiple solar panels are pre-assembled together in a factory and transported to the construction site. Second, workers install rails on the rooftop surface. Third, a crane lifts a panel from the ground and positions it on a rail-bound installation robot at the edge of the building. Finally, the rail robot brings the panel to its final position on the roof, unloads it, and returns to the edge of the roof to fetch the next panel. The company claims it sped up deployment of 1 MW (1600 large 650) from 60 days to 6 days, while reducing the number of workers by half and reducing the risk of damage to the roof. So partial automation, with the fine-grained manipulation tasks such as fixing rails to the roof still done by humans, while the backbreaking tasks such as moving the panels are handled by machines. The company made [a great video](https://lnkd.in/p/eFKtmw9Y) that shows the system in action from up close. One drawback of the system is that it cannot be deployed on roofs with a significant number of obstacles, and that it needs a crane, meaning a crane operator.
-
-![Renovate Robotics's roofing robot](/why-automate-rooftop-solar/assets/Renovate-Robotics-Rufus-Roofing-Robot-1536x1024.jpg) Renovate Robotics's shingle replacement roofing robot – Source: Renovate Robotics
-
-![Charge Robotics' on-site assembly line](/why-automate-rooftop-solar/assets/Charge-robotics-assembly-line-above.jpg) An on-site pre-assembly line – Source: Charge Robotics
 
 ![Solar D's rail-mounted installation robot](/why-automate-rooftop-solar/assets/Solar-D-rooftop-robot-English.png)A crane and rail semi-autonomous panel mounting system – Source: Solar D (translated from Thai)
 
@@ -65,6 +65,7 @@ Buildings are 30-40% of final energy consumption. It makes sense to locate energ
 
 ## The market opportunity
 As a European hoping to help revive the region’s industry, I focused first on its market. The technology could also be exported or developed elsewhere in parallel.
+
 ### The current rooftop PV business
 While the theoretical potential of residential PV is twice as large, the market size of commercial installation is now larger, likely due to businesses' higher sensitivity to energy prices, longer investment horizons, easier permitting, etc. The EU installed about 20 GW/year of commercial and industrial rooftop solar in the last few years, bringing cumulative capacity in that segment to roughly 158 GW.
 
