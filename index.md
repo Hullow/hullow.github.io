@@ -1,3 +1,7 @@
+---
+title: Articles
+---
+
 <small><a href="https://github.com/Hullow">(@hullow)</a></small>
 
 ## Articles

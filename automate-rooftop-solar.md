@@ -1,3 +1,7 @@
+---
+title: We should automate rooftop solar installation
+---
+
 <small><a href="https://github.com/Hullow">(@hullow)</a></small>
 
 # We should automate rooftop solar installation
