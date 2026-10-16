@@ -1,3 +1,5 @@
+<small><a href="https://github.com/Hullow">(@hullow)</a></small>
+
 # We should automate rooftop solar installation
 
 *Robots are beginning to help build utility-scale solar plants and maintain installed panels. Rooftop installation, especially on large commercial buildings, remains largely manual. Automating some of that work could help installers build faster and reduce the strain of work people do on roofs.*
