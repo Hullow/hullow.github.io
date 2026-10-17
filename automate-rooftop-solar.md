@@ -19,8 +19,10 @@ title: We should automate rooftop solar installation
 
 <details markdown="block">
 <summary>Part 1. Why?</summary>
+
 ## Part 1. Why?
 ### Solar photovoltaic has huge potential
+
 *If you know about solar's learning curve, you can skip this section*
 
 The world's energy needs are huge, whether that's replacing fossil fuels, powering the datacenter expansion, and existing applications are increasingly electric (most notably electric vehicles and heat pumps).
@@ -106,7 +108,9 @@ Now let's think of the global scale: quite conservatively, the unused large roof
  
 <details markdown="block">
 <summary>Part 2. How?</summary>
+
 ## Part 2. How ?
+
 We want a standardised solution on not-so-standardised roofs. The possibilities in terms of panel disposition, installation robot, mounting structure, etc. are very extensive. Let's think about what the task requires, and a few possible approaches. The guiding principles should be safety, simplicity and reduction of variability in operation to the strictest minimum (hence of AI). Safety truly is paramount, because accidents will be even more scrutinised than in human-operated systems, and adverse events (roof damage, injuries) could threaten the project's viability. Simplicity makes things easier to automate, and cheaper altogether. Less variable means less reliance on AI systems (neural nets) that make errors and hard to interpret. Additionally, an ideal long term goal would be to avoid the need for any human on the roof; verification and possible adjustments could be tele-operated remotely using the installation robot.
 
 #### Assembling panels and mounts on the ground
