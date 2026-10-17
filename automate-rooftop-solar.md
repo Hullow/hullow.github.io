@@ -2,13 +2,15 @@
 title: We should automate rooftop solar installation
 ---
 
-<small><a href="https://github.com/Hullow">(@hullow)</a></small>
-
 # We should automate rooftop solar installation
 
+Abstract:
 *Robots are beginning to help build utility-scale solar plants and maintain installed panels. Rooftop installation, especially on large commercial buildings, remains largely manual. Automating some of that work could help installers build faster and reduce the strain of work people do on roofs.*
 
 *This essay examines the size of that opportunity and the practical challenges of building such a system, with a focus on hardware. Roofs vary widely, and a useful automated system would need to work safely and reliably across many sites. Advances in robotics and AI make this a good time to define those requirements and explore how such a system might be built.*
+
+Note to readers:
+*I hope this article yields feedback, especially from professionals in the solar, construction, and robotics industries. An additional hope is that it will spark more discussion on the concrete needs of the solar industry, and the necessity to work on the energy expansion. Finally, I hope it will inspire people to explore unexplored realms and invent what they want to see in the world.*
 
 ## Table of contents
 {:.no_toc}
@@ -214,7 +216,5 @@ Humanoids are being built by many companies, but it is hard to gauge timelines f
 	- distribution of metal and membrane roofs
 	- what constitutes a navigable roof for different robotic platforms ? 
 - General tradeoffs of mounting systems
-
-*I hope this article yields feedback, especially from professionals in the solar, construction, and robotics industries. An additional hope is that it will spark more discussion on the concrete needs of the solar industry, and the necessity to work on the energy expansion. Finally, I hope it will inspire people to explore unexplored realms and invent what they want to see in the world.*
 
 Thanks to: Casey Handmer and Austin Vernon, for having written such great blogs on energy, economics and technology
