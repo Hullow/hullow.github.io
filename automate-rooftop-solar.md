@@ -214,8 +214,6 @@ The automated system would likely require its own planning software, which could
 
 The robot manufacturer could also become an installer, but the size, fragmented nature, and complexity of the world's PV installation markets strongly encourage selling a system to existing installers.
 
-</details>
-
 #### The main challenges
 - On-roof navigation, i.e. self-driving on a dangerous and fragile construction site
 - Reliable automated wiring (maybe this could happen further down the line)
@@ -229,4 +227,7 @@ The robot manufacturer could also become an installer, but the size, fragmented 
 	- what constitutes a navigable roof for different robotic platforms ? 
 - General tradeoffs of mounting systems
 
+</details>
+
 Thanks to: Casey Handmer and Austin Vernon, for having written such great blogs on energy, economics and technology. Thank you also to Gabriele, Gary, and my father for feedback.
+
