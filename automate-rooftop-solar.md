@@ -102,6 +102,7 @@ Let's do some napkin math to verify the scale. Suppose that all the 158 GW of in
 Now let's think of the global scale: quite conservatively, the unused large rooftop surface should be about the same size in the US, double in China, and another "Europe" for the rest of the world. That would correspond to an additional 800 GW expansion to address, or 80 billion EUR of labor.
 
  For a robotics business, this is more than big enough of a market to tackle, even if we cannot automate all of it.
+ </details>
  
 <details markdown="block">
 <summary>Part 2. How?</summary>
