@@ -9,7 +9,7 @@ title: We should automate rooftop solar installation
 
 ---
 
-*Note to readers*: this is an evolving research essay, which I hope will yield feedback, especially from professionals in the solar, construction, and robotics industries. If some parts make absolutely no sense or something is obviously missing, please write to . Any other feedback, both negative and positive, is also welcome. An additional hope is that to spark more discussion on the concrete needs of the solar industry, and the necessity to work on the energy expansion. Finally, I hope to inspire people to explore unexplored realms and invent what they want to see in the world.
+*Note to readers*: this is an evolving research essay, which I hope will yield feedback, especially from professionals in the solar, construction, and robotics industries. If some parts make absolutely no sense or something is obviously missing, please write to [francisallan+rooftop at gmail dot com] (literally; include the "+"). Any other feedback, both negative and positive, is also welcome. An additional hope is that to spark more discussion on the concrete needs of the solar industry, and the necessity to work on the energy expansion. Finally, I hope to inspire people to explore unexplored realms and invent what they want to see in the world.
 ## Table of contents
 {:.no_toc}
 
