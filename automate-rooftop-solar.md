@@ -3,13 +3,13 @@ title: We should automate rooftop solar installation
 ---
 # We should automate rooftop solar installation
 
-*Robots are beginning to help build ground-mounted solar farms and maintain installed panels. Rooftop installation remains largely manual. Automating some of that work could help installers build faster and reduce the strain of work people do on roofs. The need to speed up solar power deployment and reduce its "soft costs", as well as advances in robotics and AI make this a good time to define those requirements and explore what such a system might look like.*
+*Robots are beginning to help build ground-mounted solar farms and maintain installed panels. Rooftop installation remains largely manual. Automating some of that work could help installers build faster and reduce the physical strain on workers. The need to speed up solar power deployment and reduce its "soft costs", as well as advances in robotics and AI make this a good time to define those requirements and explore what such a system might look like.*
 
-*This essay examines the size of that opportunity and the practical challenges of building such a system, with a focus on the physical form the system would take. Roofs vary widely in shape, size, layout, and roofing material, and a useful automated system would need to work safely and reliably across many different roofs. The chosen focus is large, flat commercial rooftops. The most credible system pairs a wheeled robot that moves and places panels on the roof with an automated assembly line that sends panels up by a ladder hoist.*
+*This essay examines the size of that opportunity and the practical challenges of building such a system, with a focus on the physical form it would take. Roofs vary widely in shape, size, layout, and material, and a useful automated system would need to work safely and reliably across many different roofs. The chosen focus is large, flat commercial rooftops. The most credible system pairs a wheeled robot that moves and places panels on the roof with an automated assembly line that sends panels up by a ladder hoist.*
 
 ---
 
-*Note to readers*: this is a living research essay, which I hope will yield feedback, especially from professionals in the solar, robotics, and construction industries. Any feedback, whether positive or negative, is welcome: please write to [francisallan+rooftop at gmail dot com] (literally include the "+"). An additional hope is that to spark more discussion on the concrete needs of the solar industry, and the necessity to work on the energy expansion. Finally, I hope to inspire people to explore unexplored realms and invent what they want to see in the world.
+*Note to readers*: this is an evolving research essay, which I hope will yield feedback, especially from professionals in the solar, robotics, and construction industries. Any feedback, whether positive or negative, is welcome: please write to [francisallan+rooftop @ gmail . com] (include the "+"). An additional hope is that to spark more discussion on the concrete needs of the solar industry, and the necessity to work on the energy expansion. Finally, I hope to inspire people to explore unexplored realms and invent what they want to see in the world.
 
 ## Table of contents
 {:.no_toc}
